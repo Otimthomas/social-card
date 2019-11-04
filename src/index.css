@@ -1,13 +1,120 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card {
+    width: 700px;
+    border: 1px solid black;
+    height: 550px;
+    margin: 10px;
+    padding: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.card>.card-body-logo {
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.main {
+    float: right;
+}
+
+.card-header-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-header-handle .timestamp {
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+}
+
+.card-body-title {
+    height: 300px;
+    width: 550px;
+    padding: 10px;
+    background: orange;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-body-title .tweet-title {
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* text-align: center; */
+}
+
+.card-body-logo {
+    width: 40px;
+    min-height: 40px;
+    color: white;
+    padding: 5px;
+    background-color: black;
+}
+
+.author {
+    width: 150px;
+    height: 40px;
+    color: orange;
+    background-color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.author .author-name {
+    font-weight: bold;
+}
+
+.author-handle {
+    color: blue;
+}
+
+.author .author-passport {
+    /* display: inline-block; */
+    border: 1px solid black;
+    float: right;
+    margin: 2px;
+    width: 40px;
+    height: 35px;
+}
+
+.card-body-text .tweet-title {
+    font-weight: bold;
+}
+
+.card-body-text {
+    height: 80px;
+    font-size: 20px;
+    width: 550px;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 5px;
+    border-top: none;
+    padding: 10px;
+}
+
+.buttons {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 550px;
+}
+
+.btn {
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.btn .fa {
+    padding-right: 5px;
+}
+
+.retweet {
+    color: green
+}
+
+.like {
+    color: rgb(156, 4, 83);
 }
